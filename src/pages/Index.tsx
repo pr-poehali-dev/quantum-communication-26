@@ -242,10 +242,19 @@ export default function Portfolio() {
                       <Badge variant="outline">Нотариус</Badge>
                       <Badge variant="outline">Директор</Badge>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-slate-600">
+                    <div className="flex items-center gap-2 text-sm text-slate-600 mb-4">
                       <Icon name="Star" className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                       <span>Отметка о недостоверности снята</span>
                     </div>
+                    <a
+                      href="https://drive.google.com/drive/folders/11uSSwHVXimTvVNvfUN9Hic8T2H5XKe7b?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors"
+                    >
+                      <Icon name="FileDown" className="h-4 w-4" />
+                      Образец заявления можно взять здесь
+                    </a>
                   </CardContent>
                 </div>
               </div>
