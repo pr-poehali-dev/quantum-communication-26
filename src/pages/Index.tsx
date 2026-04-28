@@ -45,7 +45,7 @@ export default function Portfolio() {
                 Юрист, который говорит <span className="text-indigo-600">по-человечески</span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Меня зовут Юлия Сосновцева. Нахожу лазейки в законах, защищаю бизнес и спасаю нервы клиентов — без скучных костюмов и непонятных терминов.
+                Меня зовут Юлия Сосновцева. Помогаю ИП и юридическим лицам находить лазейки в законах, защищать бизнес и решать споры — без скучных костюмов и непонятных терминов.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700">
@@ -70,7 +70,7 @@ export default function Portfolio() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Icon name="ShieldCheck" className="h-6 w-6" />
-                    <span className="font-semibold">Защищаю бизнес и частных лиц</span>
+                    <span className="font-semibold">Работаю с ИП и юридическими лицами</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Icon name="MessageCircle" className="h-6 w-6" />
@@ -102,24 +102,15 @@ export default function Portfolio() {
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Веду канал, где делюсь реальными кейсами, инсайтами и юридическим юмором. Потому что право — это серьёзно, но не скучно.
               </p>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-2">Для бизнеса</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Договоры</Badge>
-                    <Badge variant="secondary">Споры</Badge>
-                    <Badge variant="secondary">Защита активов</Badge>
-                    <Badge variant="secondary">Регистрация</Badge>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-2">Для частных лиц</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Недвижимость</Badge>
-                    <Badge variant="secondary">Наследство</Badge>
-                    <Badge variant="secondary">Семейное право</Badge>
-                    <Badge variant="secondary">Защита прав</Badge>
-                  </div>
+              <div className="mb-6">
+                <h4 className="font-semibold text-slate-900 mb-3">Работаю с ИП и юридическими лицами</h4>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Договоры</Badge>
+                  <Badge variant="secondary">Споры</Badge>
+                  <Badge variant="secondary">Защита активов</Badge>
+                  <Badge variant="secondary">Регистрация бизнеса</Badge>
+                  <Badge variant="secondary">Корпоративное право</Badge>
+                  <Badge variant="secondary">Взыскание долгов</Badge>
                 </div>
               </div>
             </div>
