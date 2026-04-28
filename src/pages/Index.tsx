@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Code, Zap, Users, Github, Linkedin, Mail, ExternalLink, Star } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export default function Portfolio() {
   return (
@@ -10,7 +10,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="font-bold text-xl text-slate-900">CodePulse</div>
+            <div className="font-bold text-xl text-slate-900">⚖️ Юлия Сосновцева</div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Обо мне
@@ -19,7 +19,7 @@ export default function Portfolio() {
                 Услуги
               </a>
               <a href="#projects" className="text-slate-600 hover:text-slate-900 transition-colors">
-                Проекты
+                Кейсы
               </a>
               <a href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Контакты
@@ -34,38 +34,41 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-200">Открыт для проектов</Badge>
+              <Badge className="mb-4 bg-indigo-100 text-indigo-800 hover:bg-indigo-200">Принимаю клиентов</Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-                Помогаю разработчикам <span className="text-blue-600">создавать</span> веб-приложения быстрее
+                Юрист, который говорит <span className="text-indigo-600">по-человечески</span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Специализируюсь на создании современных, масштабируемых веб-приложений с использованием
-                передовых технологий. Превращу ваши идеи в мощные цифровые решения.
+                Меня зовут Юлия Сосновцева. Нахожу лазейки в законах, защищаю бизнес и спасаю нервы клиентов — без скучных костюмов и непонятных терминов.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  Начать проект
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700">
+                  Записаться на консультацию
+                  <Icon name="ArrowRight" className="ml-2 h-4 w-4" />
                 </Button>
                 <Button variant="outline" size="lg">
-                  Смотреть работы
+                  Смотреть кейсы
                 </Button>
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white">
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <Code className="h-6 w-6" />
-                    <span className="font-semibold">Современный стек</span>
+                    <Icon name="Scale" className="h-6 w-6" />
+                    <span className="font-semibold">Юридическая экспертиза</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Zap className="h-6 w-6" />
-                    <span className="font-semibold">Быстрая разработка</span>
+                    <Icon name="Lightbulb" className="h-6 w-6" />
+                    <span className="font-semibold">Нахожу нестандартные решения</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Users className="h-6 w-6" />
-                    <span className="font-semibold">Решения для разработчиков</span>
+                    <Icon name="ShieldCheck" className="h-6 w-6" />
+                    <span className="font-semibold">Защищаю бизнес и частных лиц</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Icon name="MessageCircle" className="h-6 w-6" />
+                    <span className="font-semibold">Объясняю сложное простыми словами</span>
                   </div>
                 </div>
               </div>
@@ -80,45 +83,48 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Обо мне</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Увлеченный full-stack разработчик с экспертизой в современных веб-технологиях
+              Юрист с живым взглядом на право и нестандартным подходом к задачам
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Создаю будущее веб-разработки</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6">Добро пожаловать в юридическую лабораторию!</h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                За 5+ лет опыта в веб-разработке я помог десяткам разработчиков и стартапов
-                воплотить их идеи в жизнь. Мой фокус — создание эффективных, масштабируемых
-                и поддерживаемых решений с использованием актуальных технологий.
+                Я не тот юрист, что скучает в суде в стандартном костюме. Я тот, кто разбирает сложные случаи за чашкой кофе, переводит правовую инфу с юридического на человеческий — и находит выход там, где другие видят тупик.
+              </p>
+              <p className="text-slate-600 mb-6 leading-relaxed">
+                Веду канал, где делюсь реальными кейсами, инсайтами и юридическим юмором. Потому что право — это серьёзно, но не скучно.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <h4 className="font-semibold text-slate-900 mb-2">Frontend</h4>
+                  <h4 className="font-semibold text-slate-900 mb-2">Для бизнеса</h4>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">React</Badge>
-                    <Badge variant="secondary">Next.js</Badge>
-                    <Badge variant="secondary">TypeScript</Badge>
-                    <Badge variant="secondary">Tailwind</Badge>
+                    <Badge variant="secondary">Договоры</Badge>
+                    <Badge variant="secondary">Споры</Badge>
+                    <Badge variant="secondary">Защита активов</Badge>
+                    <Badge variant="secondary">Регистрация</Badge>
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 mb-2">Backend</h4>
+                  <h4 className="font-semibold text-slate-900 mb-2">Для частных лиц</h4>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Node.js</Badge>
-                    <Badge variant="secondary">Python</Badge>
-                    <Badge variant="secondary">PostgreSQL</Badge>
-                    <Badge variant="secondary">MongoDB</Badge>
+                    <Badge variant="secondary">Недвижимость</Badge>
+                    <Badge variant="secondary">Наследство</Badge>
+                    <Badge variant="secondary">Семейное право</Badge>
+                    <Badge variant="secondary">Защита прав</Badge>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <img
-                src="/developer-workspace.png"
-                alt="Рабочее место разработчика"
-                className="rounded-2xl shadow-lg w-full max-w-[400px] h-auto"
-              />
+            <div className="relative flex justify-center">
+              <div className="w-72 h-72 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl flex items-center justify-center shadow-lg">
+                <div className="text-center">
+                  <div className="text-7xl mb-4">⚖️</div>
+                  <p className="text-indigo-700 font-semibold text-lg">Юлия Сосновцева</p>
+                  <p className="text-slate-500 text-sm">Юрист · Блогер · Эксперт</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -130,45 +136,27 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Услуги</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Полный спектр услуг веб-разработки для ускорения вашего проекта
+              Юридическая помощь без лишней воды — только по делу
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <Code className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Briefcase" className="h-6 w-6 text-indigo-600" />
                 </div>
-                <CardTitle>Full-Stack разработка</CardTitle>
+                <CardTitle>Юридический консалтинг</CardTitle>
                 <CardDescription>
-                  Комплексная разработка веб-приложений с использованием современных фреймворков и лучших практик.
+                  Персональная консультация по вашей ситуации — без шаблонных ответов, только конкретика.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-slate-600">
-                  <li>* React/Next.js приложения</li>
-                  <li>* Разработка и интеграция API</li>
-                  <li>* Проектирование баз данных</li>
-                  <li>* Аутентификация и безопасность</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
-              <CardHeader>
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Zap className="h-6 w-6 text-green-600" />
-                </div>
-                <CardTitle>Оптимизация</CardTitle>
-                <CardDescription>Ускорение существующих приложений и улучшение пользовательского опыта.</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-slate-600">
-                  <li>* Code Splitting и Lazy Loading</li>
-                  <li>* Оптимизация размера бандла</li>
-                  <li>* SEO и Core Web Vitals</li>
-                  <li>* Мониторинг производительности</li>
+                  <li>✦ Разбор вашего вопроса с нуля</li>
+                  <li>✦ Анализ рисков и возможностей</li>
+                  <li>✦ Пошаговый план действий</li>
+                  <li>✦ Ответы на все вопросы</li>
                 </ul>
               </CardContent>
             </Card>
@@ -176,17 +164,35 @@ export default function Portfolio() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-purple-600" />
+                  <Icon name="FileText" className="h-6 w-6 text-purple-600" />
                 </div>
-                <CardTitle>Менторство</CardTitle>
-                <CardDescription>Индивидуальное наставничество для развития навыков разработчиков.</CardDescription>
+                <CardTitle>Договоры и документы</CardTitle>
+                <CardDescription>Составлю или проверю любой договор — чтобы не было сюрпризов потом.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-slate-600">
-                  <li>* Code Review и лучшие практики</li>
-                  <li>* Планирование архитектуры</li>
-                  <li>* Развитие карьеры</li>
-                  <li>* Подготовка к собеседованиям</li>
+                  <li>✦ Составление с нуля</li>
+                  <li>✦ Проверка на риски</li>
+                  <li>✦ Защитные клаузулы</li>
+                  <li>✦ Переговоры об условиях</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Scale" className="h-6 w-6 text-rose-600" />
+                </div>
+                <CardTitle>Защита интересов</CardTitle>
+                <CardDescription>Представлю ваши интересы там, где это важно — в суде, переговорах, спорах.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-sm text-slate-600">
+                  <li>✦ Споры с контрагентами</li>
+                  <li>✦ Защита в суде</li>
+                  <li>✦ Переговоры с оппонентом</li>
+                  <li>✦ Претензионная работа</li>
                 </ul>
               </CardContent>
             </Card>
@@ -194,93 +200,73 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Cases Section */}
       <section id="projects" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Избранные проекты</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Избранные кейсы</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Недавние работы, которые помогли разработчикам создать отличные приложения
+              Реальные истории — имена изменены, суть сохранена. Я не монстр, конфиденциальность соблюдаю 😉
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="relative h-48 bg-gradient-to-r from-blue-500 to-purple-600">
-                <img
-                  src="/modern-web-dashboard.png"
-                  alt="SaaS дашборд"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div className="h-48 bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
+                <div className="text-center text-white p-6">
+                  <div className="text-5xl mb-3">🐱🏠</div>
+                  <p className="font-semibold text-lg">Кот и квартира</p>
+                </div>
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>SaaS-платформа</CardTitle>
+                    <CardTitle>Завещание с котом в нагрузку</CardTitle>
                     <CardDescription>
-                      Комплексный дашборд для управления SaaS-приложениями с аналитикой в реальном времени.
+                      Клиент решил завещать квартиру вместе с котом — одним документом. Спойлер: так нельзя, но выход нашёлся.
                     </CardDescription>
-                  </div>
-                  <div className="flex gap-2">
-                    <Button variant="ghost" size="icon">
-                      <Github className="h-4 w-4" />
-                    </Button>
-                    <Button variant="ghost" size="icon">
-                      <ExternalLink className="h-4 w-4" />
-                    </Button>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">Next.js</Badge>
-                  <Badge variant="outline">TypeScript</Badge>
-                  <Badge variant="outline">Prisma</Badge>
-                  <Badge variant="outline">Tailwind</Badge>
+                  <Badge variant="outline">Наследство</Badge>
+                  <Badge variant="outline">Нотариус</Badge>
+                  <Badge variant="outline">Нестандартный кейс</Badge>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-600">
-                  <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  <span>В топе Product Hunt</span>
+                  <Icon name="Star" className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                  <span>Решено к радости кота и наследника</span>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="relative h-48 bg-gradient-to-r from-green-500 to-blue-600">
-                <img
-                  src="/ecommerce-mobile-app.png"
-                  alt="Мобильное приложение"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div className="h-48 bg-gradient-to-r from-purple-500 to-rose-500 flex items-center justify-center">
+                <div className="text-center text-white p-6">
+                  <div className="text-5xl mb-3">💼⚡</div>
+                  <p className="font-semibold text-lg">Бизнес под угрозой</p>
+                </div>
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>E-commerce приложение</CardTitle>
+                    <CardTitle>Контрагент исчез с предоплатой</CardTitle>
                     <CardDescription>
-                      React Native приложение с удобным шопингом и интеграцией платежей.
+                      Партнёр взял 800 000 ₽, перестал выходить на связь и сменил телефон. Казалось — деньги потеряны.
                     </CardDescription>
-                  </div>
-                  <div className="flex gap-2">
-                    <Button variant="ghost" size="icon">
-                      <Github className="h-4 w-4" />
-                    </Button>
-                    <Button variant="ghost" size="icon">
-                      <ExternalLink className="h-4 w-4" />
-                    </Button>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">React Native</Badge>
-                  <Badge variant="outline">Node.js</Badge>
-                  <Badge variant="outline">MongoDB</Badge>
-                  <Badge variant="outline">Stripe</Badge>
+                  <Badge variant="outline">Споры</Badge>
+                  <Badge variant="outline">Взыскание долгов</Badge>
+                  <Badge variant="outline">Бизнес</Badge>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-600">
-                  <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  <span>10 000+ загрузок</span>
+                  <Icon name="Star" className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                  <span>Деньги возвращены через суд</span>
                 </div>
               </CardContent>
             </Card>
@@ -292,9 +278,9 @@ export default function Portfolio() {
       <section id="contact" className="py-20 bg-slate-900 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Создадим что-то потрясающее</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Разберём ваш вопрос за чашкой кофе ☕</h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Готовы ускорить процесс разработки? Давайте обсудим ваш проект.
+              Есть юридический вопрос? Не ищите ответ в интернете — это плохая идея. Напишите мне.
             </p>
           </div>
 
@@ -302,14 +288,23 @@ export default function Portfolio() {
             <div>
               <h3 className="text-2xl font-bold mb-6">Связаться со мной</h3>
               <p className="text-slate-300 mb-8 leading-relaxed">
-                Будь то стартап, которому нужен MVP, или компания, желающая модернизировать
-                технологический стек — я помогу вам добиться успеха.
+                Будь то сложный договор, спор с партнёром или вопрос про кота в завещании — пишите в Telegram. Отвечаю лично.
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                    <Mail className="h-6 w-6" />
+                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
+                    <Icon name="Send" className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <p className="font-semibold">Telegram</p>
+                    <p className="text-slate-300">Для срочных вопросов и консультаций</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
+                    <Icon name="Mail" className="h-6 w-6" />
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
@@ -318,22 +313,12 @@ export default function Portfolio() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                    <Github className="h-6 w-6" />
+                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
+                    <Icon name="BookOpen" className="h-6 w-6" />
                   </div>
                   <div>
-                    <p className="font-semibold">GitHub</p>
-                    <p className="text-slate-300">@codepulse</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                    <Linkedin className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <p className="font-semibold">LinkedIn</p>
-                    <p className="text-slate-300">@codepulse-dev</p>
+                    <p className="font-semibold">Канал</p>
+                    <p className="text-slate-300">Кейсы, инсайты и юридический юмор</p>
                   </div>
                 </div>
               </div>
@@ -341,9 +326,9 @@ export default function Portfolio() {
 
             <Card className="bg-slate-800 border-slate-700">
               <CardHeader>
-                <CardTitle className="text-white">Начать проект</CardTitle>
+                <CardTitle className="text-white">Оставить заявку</CardTitle>
                 <CardDescription className="text-slate-300">
-                  Расскажите о проекте, и обсудим, как я могу помочь.
+                  Расскажите о своей ситуации — отвечу и назначим удобное время.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -352,16 +337,16 @@ export default function Portfolio() {
                     <label className="block text-sm font-medium text-slate-300 mb-2">Имя</label>
                     <input
                       type="text"
-                      className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Иван"
+                      className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                      placeholder="Ваше имя"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-slate-300 mb-2">Фамилия</label>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">Телефон / Telegram</label>
                     <input
                       type="text"
-                      className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Иванов"
+                      className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                      placeholder="+7 или @nickname"
                     />
                   </div>
                 </div>
@@ -369,21 +354,21 @@ export default function Portfolio() {
                   <label className="block text-sm font-medium text-slate-300 mb-2">Email</label>
                   <input
                     type="email"
-                    className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     placeholder="ivan@example.com"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">О проекте</label>
+                  <label className="block text-sm font-medium text-slate-300 mb-2">Опишите ситуацию</label>
                   <textarea
                     rows={4}
-                    className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Расскажите о вашем проекте..."
+                    className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    placeholder="Что случилось? Чем могу помочь?"
                   />
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                  Отправить
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                <Button className="w-full bg-indigo-600 hover:bg-indigo-700">
+                  Отправить заявку
+                  <Icon name="ArrowRight" className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
@@ -395,9 +380,9 @@ export default function Portfolio() {
       <footer className="bg-slate-950 text-slate-400 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="font-bold text-xl text-white mb-4 md:mb-0">CodePulse</div>
+            <div className="font-bold text-xl text-white mb-4 md:mb-0">⚖️ Юлия Сосновцева</div>
             <p className="text-center md:text-right">
-              2024 CodePulse. Помогаю разработчикам создавать быстрые и качественные веб-приложения.
+              © 2024 Юлия Сосновцева. Ваш эксперт по праву и неправде 😉
             </p>
           </div>
         </div>
