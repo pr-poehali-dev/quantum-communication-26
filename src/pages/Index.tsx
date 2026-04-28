@@ -84,7 +84,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="py-20 bg-slate-100/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Обо мне</h2>
@@ -202,7 +202,7 @@ export default function Portfolio() {
       </section>
 
       {/* Cases Section */}
-      <section id="projects" className="py-20 bg-white">
+      <section id="projects" className="py-20 bg-slate-100/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Избранные кейсы</h2>
@@ -367,7 +367,7 @@ export default function Portfolio() {
       </section>
 
       {/* Law News Section */}
-      <section id="law-news" className="py-20 bg-white">
+      <section id="law-news" className="py-20 bg-slate-100/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Что нового в законе?</h2>
