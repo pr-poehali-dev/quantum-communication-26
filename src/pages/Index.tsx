@@ -212,6 +212,45 @@ export default function Portfolio() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden lg:col-span-2">
+              <div className="grid md:grid-cols-2">
+                <div className="h-64 md:h-auto overflow-hidden">
+                  <img
+                    src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/257e083a-5ba9-444f-a8a3-e845ae1fcf0f.JPG"
+                    alt="Недостоверность сведений в ЕГРЮЛ"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <CardHeader>
+                    <div className="flex flex-wrap gap-2 mb-2">
+                      <Badge className="bg-rose-100 text-rose-800">Регистрация</Badge>
+                      <Badge className="bg-slate-100 text-slate-700">#ЕГРЮЛ</Badge>
+                    </div>
+                    <CardTitle>Недостоверность сведений в ЕГРЮЛ — это проблема</CardTitle>
+                    <CardDescription>
+                      Собственники не могут ничего зарегистрировать, у контрагентов вы светитесь красным, электронные подписи блокируют. Разобрали кейс от и до.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="flex-1">
+                    <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+                      Можно идти длинным путём — обжаловать действия ФНС. А можно коротким — подать заявление на актуализацию сведений через нотариуса по форме Р13014. Есть нюансы, о которых знает не каждый юрист.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      <Badge variant="outline">ООО</Badge>
+                      <Badge variant="outline">ФНС</Badge>
+                      <Badge variant="outline">Нотариус</Badge>
+                      <Badge variant="outline">Директор</Badge>
+                    </div>
+                    <div className="flex items-center gap-2 text-sm text-slate-600">
+                      <Icon name="Star" className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                      <span>Отметка о недостоверности снята</span>
+                    </div>
+                  </CardContent>
+                </div>
+              </div>
+            </Card>
+
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <div className="h-48 bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
                 <div className="text-center text-white p-6">
