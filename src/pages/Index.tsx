@@ -21,6 +21,9 @@ export default function Portfolio() {
               <a href="#projects" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Кейсы
               </a>
+              <a href="#notes" className="text-slate-600 hover:text-slate-900 transition-colors">
+                Заметки
+              </a>
               <a href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Контакты
               </a>
@@ -272,6 +275,46 @@ export default function Portfolio() {
                   <Icon name="Star" className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                   <span>Деньги возвращены через суд</span>
                 </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Notes Section */}
+      <section id="notes" className="py-20 bg-slate-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Заметки</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Мысли вслух — о праве, практике и жизни юриста
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <Badge className="bg-indigo-100 text-indigo-800">Про профессию</Badge>
+                  <span className="text-sm text-slate-400">Заметка #1</span>
+                </div>
+                <CardTitle className="text-xl leading-snug">
+                  Перевожу с юридического на русский — что это значит на самом деле?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 mb-4 leading-relaxed">
+                  Казалось бы, всё очевидно: юрист знает закон, а дальше просто меняет термины на бытовые. Но я с таким подходом не согласна.
+                </p>
+                <p className="text-slate-600 mb-4 leading-relaxed">
+                  Возьмём статью 10 ГК РФ о злоупотреблении правом. Чтобы перевести её на «человеческий» — я прочитала гору судебной практики и разъяснений Верховного суда, прослушала курсы по повышению квалификации у гуру юридической практики и сама применяла эту норму в реальных кейсах.
+                </p>
+                <p className="text-slate-600 mb-4 leading-relaxed">
+                  Всё это нужно, чтобы при «переводе» норма сработала именно на благо клиента — с прицелом на его конкретную ситуацию.
+                </p>
+                <p className="text-slate-700 font-medium italic">
+                  А ваш юрист понимает дух закона? ☺️
+                </p>
               </CardContent>
             </Card>
           </div>
