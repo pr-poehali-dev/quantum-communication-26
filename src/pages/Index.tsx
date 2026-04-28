@@ -303,6 +303,18 @@ export default function Portfolio() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
+                <div className="grid grid-cols-2 gap-3 mb-6">
+                  <img
+                    src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/0a963fa9-4a8a-4b65-8d78-2a0cd11bebc5.JPG"
+                    alt="Последние деньки лета"
+                    className="w-full h-48 object-cover rounded-xl"
+                  />
+                  <img
+                    src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/c7f07ab1-c5aa-4d3a-9a29-76ed502cfd11.JPG"
+                    alt="Кофе и работа"
+                    className="w-full h-48 object-cover rounded-xl"
+                  />
+                </div>
                 <p className="text-slate-600 mb-4 leading-relaxed">
                   Казалось бы, всё очевидно: юрист знает закон, а дальше просто меняет термины на бытовые. Но я с таким подходом не согласна.
                 </p>
