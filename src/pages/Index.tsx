@@ -24,6 +24,9 @@ export default function Portfolio() {
               <a href="#notes" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Заметки
               </a>
+              <a href="#law-news" className="text-slate-600 hover:text-slate-900 transition-colors">
+                Что нового в законе?
+              </a>
               <a href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Контакты
               </a>
@@ -326,6 +329,52 @@ export default function Portfolio() {
                 </p>
                 <p className="text-slate-700 font-medium italic">
                   А ваш юрист понимает дух закона? ☺️
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Law News Section */}
+      <section id="law-news" className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Что нового в законе?</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Важные изменения в законодательстве — коротко и по делу
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-6">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-amber-400">
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <Badge className="bg-amber-100 text-amber-800">⚡ Банки и финансы</Badge>
+                  <span className="text-sm text-slate-400">С 1 сентября 2025</span>
+                </div>
+                <CardTitle className="text-xl leading-snug">
+                  Банки смогут заморозить снятие наличных на 48 часов
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 mb-4 leading-relaxed">
+                  С 1 сентября 2025 года банки будут ограничивать на 48 часов возможность снятия денег — до 50 000 рублей в сутки — при наличии признаков мошенничества.
+                </p>
+                <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4">
+                  <p className="text-amber-900 font-medium mb-2">Один из признаков мошенничества:</p>
+                  <p className="text-amber-800 text-sm leading-relaxed">
+                    Запрос на снятие наличных в течение 24 часов с момента досрочного закрытия вклада на сумму более 200 000 рублей.
+                  </p>
+                </div>
+                <p className="text-slate-600 mb-4 leading-relaxed">
+                  Это значит: снять наличные свыше 200 000 рублей при досрочном закрытии вклада в один день <span className="font-semibold text-slate-800">не получится</span>.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  Учитывая, сколько сейчас денег граждан во вкладах — считаю это крайне полезная информация.
+                </p>
+                <p className="text-slate-700 font-medium italic mt-4">
+                  Предупреждён — значит вооружён 📝
                 </p>
               </CardContent>
             </Card>
