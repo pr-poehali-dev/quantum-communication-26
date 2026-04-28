@@ -120,7 +120,7 @@ export default function Portfolio() {
             <div className="relative flex justify-center">
               <div className="relative w-80 h-96 rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/0966e3f5-6430-4f8d-91fd-bb79bd85557e.jpg"
+                  src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/cb68d955-6703-4ec9-84ac-ae69a66ddaf1.jpg"
                   alt="Юлия Сосновцева — юрист"
                   className="w-full h-full object-cover object-top"
                 />
