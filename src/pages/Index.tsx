@@ -118,11 +118,15 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="relative flex justify-center">
-              <div className="w-72 h-72 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl flex items-center justify-center shadow-lg">
-                <div className="text-center">
-                  <div className="text-7xl mb-4">⚖️</div>
-                  <p className="text-indigo-700 font-semibold text-lg">Юлия Сосновцева</p>
-                  <p className="text-slate-500 text-sm">Юрист · Блогер · Эксперт</p>
+              <div className="relative w-80 h-96 rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src="https://cdn.poehali.dev/projects/aa8fff1d-7f08-4958-950a-69e1e67bfd2f/bucket/0966e3f5-6430-4f8d-91fd-bb79bd85557e.jpg"
+                  alt="Юлия Сосновцева — юрист"
+                  className="w-full h-full object-cover object-top"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-indigo-900/80 to-transparent p-4">
+                  <p className="text-white font-semibold text-lg">Юлия Сосновцева</p>
+                  <p className="text-indigo-200 text-sm">Юрист · Блогер · Эксперт</p>
                 </div>
               </div>
             </div>
